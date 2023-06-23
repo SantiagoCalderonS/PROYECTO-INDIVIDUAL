@@ -1,0 +1,28 @@
+.Class{
+    display: inline-block;
+     color: rgb(0, 0, 0);
+    background-color: rgba(240, 240, 240, 0.753);
+    width: 400px;
+    height: auto;
+    border: solid 2px;
+    border-color: rgb(43, 43, 43);
+    border-radius: 10px;
+    position: relative; top: 20px;
+    margin: 10px;
+}
+
+.Class img{
+    margin-top: 15px;
+    border: solid 1px;
+    border-radius: 10px;
+
+}
+
+.Class li{
+text-align: left;
+}
+
+.Class h3{
+    text-align: left;
+    margin-left: 20px;
+    }

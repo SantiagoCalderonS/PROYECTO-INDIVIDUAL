@@ -1,0 +1,30 @@
+.Class{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+   background-color: rgba(199, 199, 199, 0.7);
+   border: solid 2px;
+   border-color: rgb(26, 26, 26);
+   border-radius: 10px;
+   position: relative; top: 20px;
+   margin: 30px;
+
+}
+
+.Class img{
+    margin: 10px;
+    border: solid 1px;
+    border-color:rgb(26, 26, 26);
+    border-radius: 4px;
+}
+
+.Class p{
+    text-align: left ;
+    padding: 10px;
+    margin: 15px;
+    border: solid 1px;
+    border-color:rgb(126, 126, 126);
+    border-radius: 4px;
+    background-color: rgb(204, 204, 204, 0.8);
+}
+
+

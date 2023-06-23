@@ -1,0 +1,15 @@
+.Class{
+    display: inline-block ;
+   background-color: rgba(0, 0, 0, 0.7);
+   width: 400px;
+   border: solid 2px;
+   border-color:black;
+   border-radius: 10px;
+   position: relative; left: 20px;
+   margin: 10px;
+    
+}
+
+.Class input{
+    width: auto;
+}

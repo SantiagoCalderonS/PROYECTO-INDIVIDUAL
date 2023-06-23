@@ -1,0 +1,14 @@
+.Class{
+    display: flex;
+    flex-direction:row;
+}
+
+.Filter{
+    display: flex;
+    flex-direction:row;
+}
+
+.Order{
+    display: flex;
+    flex-direction:row;
+}
