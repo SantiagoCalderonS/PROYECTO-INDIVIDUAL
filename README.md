@@ -62,7 +62,11 @@ La aplicación se desarrolló utilizando **React** y **Redux** y cuenta con las 
 -  Botones/Opciones para **ordenar** tanto ascendentemente como descendentemente las recetas por orden alfabético y por "comida saludable" (_health score_).
 -  Paginado: el listado de recetas se hace por partes.
 
-![principal](capturas/Captura481)
+![principal](capturas/Captura481.png)
+<br />
+##### FILTROS APLICADOS
+
+![principal](capturas/Captura484.png)
 <br />
 
 **📍 DETAIL PAGE |** en esta vista se muestra toda la información específica de una receta:
@@ -75,6 +79,7 @@ La aplicación se desarrolló utilizando **React** y **Redux** y cuenta con las 
 -  Imagen.
 -  Tipos de dieta.
 
+![principal](capturas/Captura480.png)
 <br />
 
 **FORM PAGE |**: en esta vista se encuentra el formulario para crear una nueva receta.
@@ -89,6 +94,11 @@ Este formulario es **controlado completamente con JavaScritp**. Cuenta con los s
 -  Posibilidad de seleccionar/agregar varios tipos de dieta en simultáneo.
 -  Botón para crear la receta.
 
+![principal](capturas/Captura482.png)
+<br />
+##### RECETA CREADA
+
+![principal](capturas/Captura486.png)
 <br />
 
 ### **🖱 BASE DE DATOS**
@@ -149,18 +159,6 @@ Las principales rutas son:
 -  En una primera instancia, cuando no exista ninguna dieta, deberás precargar la base de datos con las dietas de la [**documentación**](https://spoonacular.com/food-api/docs#Diets).
 -  Estas deben ser obtenidas de la API (se evaluará que no haya hardcodeo). Luego de obtenerlas de la API, deben ser guardadas en la base de datos para su posterior consumo desde allí.
 
-<br />
-
----
-
-<br />
-
-
-<br />
-
----
-
-<br />
 
 
 <div align="center">
