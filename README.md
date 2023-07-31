@@ -5,7 +5,7 @@
 ## **📌 OBJETIVOS**
 
 -  Construir una Single Page Application utlizando las tecnologías: **React**, **Redux**, **Node**, **Express** y **Sequelize**.
--  Poner en práctica recursos básicos de estilos y diseño (UX : UI).
+-  Poner en práctica recursos básicos de estilos y diseño.
 -  Afirmar y conectar los conceptos aprendidos en la carrera.
 -  Aprender y practicar el workflow de GIT.
 
