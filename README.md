@@ -39,6 +39,58 @@ La idea de este proyecto fue construir una aplicación web a partir de la API [*
 
 <br />
 
+### **🖱 FRONT-END**
+
+La aplicación se desarrolló utilizando **React** y **Redux** y cuenta con las siguientes vistas:
+
+**LANDING PAGE |** página de inicio o bienvenida con:
+
+-  Imagen de fondo.
+-  Botón de ingreso a la **`home page`**.
+
+<br />
+
+**📍 HOME PAGE |** Página principal con:
+
+-  SearchBar: un input de búsqueda para encontrar recetas por nombre.
+-  Sector en el que se verá un listado de cards con las recetas:
+   -  Imagen.
+   -  Nombre.
+   -  Tipos de dietas.
+-  Cuando se le hace click a una Card deberá redirigir al detalle de esa receta específica.
+-  Botones/Opciones para **filtrar** por tipo de dieta, y por si su origen es de la API o de la base de datos (creados por nosotros desde el formulario).
+-  Botones/Opciones para **ordenar** tanto ascendentemente como descendentemente las recetas por orden alfabético y por "comida saludable" (_health score_).
+-  Paginado: el listado de recetas se hace por partes.
+<br />
+![principal](capturas/Captura481)
+<br />
+
+**📍 DETAIL PAGE |** en esta vista se muestra toda la información específica de una receta:
+
+-  ID.
+-  Nombre.
+-  Resumen del plato.
+-  Nivel de comida saludable (health score).
+-  Paso a paso.
+-  Imagen.
+-  Tipos de dieta.
+
+<br />
+
+**FORM PAGE |**: en esta vista se encuentra el formulario para crear una nueva receta.
+
+Este formulario es **controlado completamente con JavaScritp**. Cuenta con los siguientes campos:
+
+-  Nombre.
+-  Resumen del plato.
+-  Nivel de comida saludable (health score).
+-  Paso a paso.
+-  Imagen.
+-  Posibilidad de seleccionar/agregar varios tipos de dieta en simultáneo.
+-  Botón para crear la receta.
+
+<br />
+
 ### **🖱 BASE DE DATOS**
 
 La base de datos consta dos modelos para tu base de datos. Una es para las recetas y la otra es para los tipos de dietas. La relación entre ambos es de muchos a muchos. A continuación te dejamos las propiedades los modelos.
@@ -103,54 +155,6 @@ Las principales rutas son:
 
 <br />
 
-### **🖱 FRONT-END**
-
-La aplicación se desarrolló utilizando **React** y **Redux** y cuenta con las siguientes vistas:
-
-**LANDING PAGE |** página de inicio o bienvenida con:
-
--  Imagen de fondo.
--  Botón de ingreso a la **`home page`**.
-
-<br />
-
-**📍 HOME PAGE |** Página principal con:
-
--  SearchBar: un input de búsqueda para encontrar recetas por nombre.
--  Sector en el que se verá un listado de cards con las recetas:
-   -  Imagen.
-   -  Nombre.
-   -  Tipos de dietas.
--  Cuando se le hace click a una Card deberá redirigir al detalle de esa receta específica.
--  Botones/Opciones para **filtrar** por tipo de dieta, y por si su origen es de la API o de la base de datos (creados por nosotros desde el formulario).
--  Botones/Opciones para **ordenar** tanto ascendentemente como descendentemente las recetas por orden alfabético y por "comida saludable" (_health score_).
--  Paginado: el listado de recetas se hace por partes.
-
-<br />
-
-**📍 DETAIL PAGE |** en esta vista se muestra toda la información específica de una receta:
-
--  ID.
--  Nombre.
--  Resumen del plato.
--  Nivel de comida saludable (health score).
--  Paso a paso.
--  Imagen.
--  Tipos de dieta.
-
-<br />
-
-**FORM PAGE |**: en esta vista se encuentra el formulario para crear una nueva receta.
-
-Este formulario es **controlado completamente con JavaScritp**. Cuenta con los siguientes campos:
-
--  Nombre.
--  Resumen del plato.
--  Nivel de comida saludable (health score).
--  Paso a paso.
--  Imagen.
--  Posibilidad de seleccionar/agregar varios tipos de dieta en simultáneo.
--  Botón para crear la receta.
 
 <br />
 
