@@ -160,7 +160,6 @@ Las principales rutas son:
 -  Estas deben ser obtenidas de la API (se evaluará que no haya hardcodeo). Luego de obtenerlas de la API, deben ser guardadas en la base de datos para su posterior consumo desde allí.
 
 
-
 <div align="center">
 <img src="./cooking.png" alt="" />
 </div>
