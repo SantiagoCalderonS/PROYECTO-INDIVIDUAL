@@ -61,7 +61,7 @@ La aplicación se desarrolló utilizando **React** y **Redux** y cuenta con las 
 -  Botones/Opciones para **filtrar** por tipo de dieta, y por si su origen es de la API o de la base de datos (creados por nosotros desde el formulario).
 -  Botones/Opciones para **ordenar** tanto ascendentemente como descendentemente las recetas por orden alfabético y por "comida saludable" (_health score_).
 -  Paginado: el listado de recetas se hace por partes.
-<br />
+
 ![principal](capturas/Captura481)
 <br />
 
