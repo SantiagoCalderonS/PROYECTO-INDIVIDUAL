@@ -17,7 +17,7 @@ export default function Validador (info, input_validado){
 
         return ""
     }
-    if(input_validado=== "healthScore"){
+    if(input_validado=== "healthScore" || input_validado === "price"){
         if(isNaN(info)){ return "No es un numero"}
         if(Number(info) <=0 ){return "Ponga un valor adecuado"};
         if(Number(info) > 100 ){return "El debe ser entre 0 a 100"};

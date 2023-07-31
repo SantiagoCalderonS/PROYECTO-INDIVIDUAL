@@ -35,7 +35,7 @@ const MiReceta = ()=>{
         })
 
         
-        if(input === "healthScore" && !isNaN(info)){
+        if((input === "healthScore" || input==="price") && !isNaN(info)){
             info= Number(info)
             setReceta({...receta,
                 [input]: info
@@ -120,6 +120,10 @@ const MiReceta = ()=>{
         <option value="fodmap friendly">fodmap friendly</option>
         {receta.diets.length && (<option value="Borrar dietas">Borrar</option>)}
         </select>
+            <br/>
+            <label>precio:</label>
+            <input name="price" onChange={handleChange} value={receta.price}/>
+            {err.error !== "" && err.input_validado=== "price"? (<p>{err.error}</p>):""}
             <br/>
 
             <label>URL DE LA FOTO: </label>

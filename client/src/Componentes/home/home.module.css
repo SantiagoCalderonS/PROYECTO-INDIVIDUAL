@@ -1,7 +1,5 @@
 .Class2{
-  height: auto;
-  padding: 20px;
-  text-align: center;
+  display: inline-flex;
   }
 
 .Class1{

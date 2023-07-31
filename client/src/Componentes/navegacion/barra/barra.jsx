@@ -34,3 +34,5 @@ const Barra = ()=>{
     }
     
     export default Barra;
+
+    //todos los botones deberian tener un "event.prevent.default()"

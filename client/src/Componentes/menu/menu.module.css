@@ -1,7 +1,13 @@
 .Class h1{
+    display: inline-flex;
+    flex-direction: row;
     margin: 30px;
     border: solid 2px;
     border-color: white; 
 color: white;
 background-color: rgb(71, 71, 71);
+}
+
+.Class div{
+    display: inline-block;
 }

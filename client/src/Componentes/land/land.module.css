@@ -1,3 +1,12 @@
-.Class{
-  height:100%;
+.Class button{
+  background-color:  rgb(107, 107, 107); /* Green */
+  border: solid 2px;
+  border-color:  rgb(255, 255, 255);;
+  border-radius: 4px;
+  color:  rgb(255, 255, 255);;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }

@@ -80,7 +80,7 @@ const getDiets= async (req,res)=> {
 }
 
 const postRecipe= async (req, res)=>{
-    const {name, image, instructions,healthScore,summary, diets} =req.body
+    const {name, image, instructions,healthScore,summary, diets, price} =req.body
 
     try {
         const dietasdereceta=  await Diets.findAll({
@@ -92,7 +92,7 @@ const postRecipe= async (req, res)=>{
         })
 
         const newRec= await Recipe.create({
-            name: name, image: image, instructions:instructions,healthScore:healthScore, summary:summary 
+            name: name, image: image, instructions:instructions,healthScore:healthScore, summary:summary, price:price
         })
         await newRec.setDiets(dietasdereceta)
         

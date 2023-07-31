@@ -27,6 +27,7 @@ const Detalles = ()=>{
    
     return(<div className={Style.Class}>
         { receta.name?(<>
+        {receta.price?(<h1>{receta.price}</h1>):""}
         <h4>#{receta.ID}</h4>
         <h1>{receta.name}</h1>
         <img src={receta.image} alt='' />
